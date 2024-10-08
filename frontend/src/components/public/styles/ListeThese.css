@@ -1,0 +1,25 @@
+.ListeTheseTitleForStyling{
+    background-color: aliceblue;
+    padding: 2%;
+    color:rgb(34, 34, 78) !important;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+    width: 86%;
+
+}
+.ListeTheseContainerForStyling .FacultePIC{ 
+    display: none;
+}
+
+
+.ListeTheseContainerForStyling .LoginButtonForHeader{
+    margin-top: -2.5%;
+    margin-left: 84%;
+}
+.TablecontainerForStylingListeThese{
+    
+}
+.pagination{
+    margin-left: 46%;
+    margin-top: 4%;
+}

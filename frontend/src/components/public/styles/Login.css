@@ -1,0 +1,54 @@
+.LoginPageForStyling .LoginButtonForHeader{
+    display: none;
+}
+.row{
+    margin-top: 4%;
+}
+.LoginPageForStyling{
+    overflow-x: hidden;
+    user-select: none;
+}
+.LoginPageForStyling .FacultePIC{
+    
+    display: none;
+}
+.titleforLoginStyling{
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 39px;
+    
+}
+.LoginPageForStyling input::placeholder{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.LoginPageForStyling input{
+    margin-top: 4%;
+    height: 44px;
+}
+.ForgotPasswordLinkerForLogin p{
+    text-align: center;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: -3.1%;
+
+}
+.ForgotPasswordLinkerForLogin a{
+    text-decoration: none;
+}
+.buttonLoginFormForStyling{
+    margin-top: 40px;
+    width: 20%;
+    height: 37px;
+    margin-left: 38.5%;
+    color: black;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.buttonLoginFormForStyling:hover{
+    border: 1px black solid;
+    background-color: #f3f3f3;
+    color: black;
+}

@@ -1,0 +1,22 @@
+.confirmationButtonForCinInputforInscription{
+
+    margin-left: 0% !important;
+    margin-top: 3%;
+
+}
+.CinEntryForOldStudentInscription{
+    margin-top: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.CinEntryForOldStudentInscription input::placeholder {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.InscrirptionHolderForAllStudentComponent .FacultePIC {
+    display: none;
+}
+.InscrirptionHolderForAllStudentComponent .LoginButtonForHeader{
+    margin-top: -2.8%;
+    margin-left: 84%;
+}

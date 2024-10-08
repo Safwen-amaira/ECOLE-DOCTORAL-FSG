@@ -1,0 +1,16 @@
+.RechercheInputForVisiteur::placeholder{
+    text-shadow: 2px;
+    text-align: center;
+    opacity: 0.4;
+    
+}
+.RechercheInputForVisiteur{
+    width: 30%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.RechercheInputForVisiteur:focus{
+    filter:drop-shadow(0.1px 0.1px 4px rgb(26, 42, 101)
+    )
+}

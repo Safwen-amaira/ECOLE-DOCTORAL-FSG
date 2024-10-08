@@ -1,0 +1,40 @@
+.chercheur-content {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    width: 80%;
+}
+
+.profile-section {
+    display: flex;
+}
+
+.profile-item {
+    margin-right: 20px;
+}
+
+.profile-item p {
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.profile-item img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.download-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,89 @@
+
+
+
+
+body,html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.app-logo{
+  padding-left: 40px;
+}
+.sidebar{
+  display: flex;
+  height: 100vh;
+  float: left;
+  overflow: initial;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  
+}
+
+
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+table thead tr th{
+  border: 1px solid black;
+}
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+.trash-icon:hover{
+animation: shakeing-icon 0.2s ease-in-out 0.5ms;
+color: rgb(192, 74, 74);
+}
+
+@keyframes shakeing-icon{
+
+0% {transform: translateX(0);}
+10%,90%{transform: translateX(-2px)}
+20%,80%{transform:translateY(2px)}
+30%,70%{ transform: translateY(-2px);}
+}
+
+
+
+
+
+/* scroll bar for the whole apppp*/
+*::-webkit-scrollbar {
+  width: 8px; 
+}
+*::-webkit-scrollbar-track {
+  background: rgb(228, 228, 255); 
+}::-webkit-scrollbar-thumb {
+  background: rgb(34, 34, 78); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(34, 34, 78); 
+}
+
+.StylingLinkForSearch{
+  text-decoration: none;
+  color: rgb(30, 30, 160);
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 2%;
+}

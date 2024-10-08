@@ -1,0 +1,21 @@
+.TitleOfListeArticleStyling{
+    background-color: aliceblue;
+    padding: 2%;
+    color: rgb(43, 43, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin-top: -4%;
+    align-self: center;
+}
+.ListeArticleContainerStylings .FacultePIC {
+    display: none;
+}
+.ListeArticleContainerStylings .LoginButtonForHeader{
+    margin-top: -2.5%;
+    margin-left: 84%;
+
+}
+.TableForListeArticleHolderStyling{
+    background-color: transparent;
+    margin-top: 3%;
+}

@@ -1,0 +1,100 @@
+
+.titleRequest-container{
+    align-self: center;
+    color: rgb(34, 34, 78);
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ContainerInformationsRequest{
+    width: 80%;
+    align-self: center;
+
+}
+.SuccessPreInscription .FacultePIC{
+    display: none;
+}
+.SuccessPreInscription .LoginButtonForHeader{
+    margin-top: -2.8%;
+    margin-left: 84%;
+}
+table{
+    width: 80%;
+    align-self: center;
+    padding: 0%;
+    margin-left: 23%;
+    border: 1px double rgb(34, 34, 78);
+}
+tr,td{
+border: 1px double rgb(34, 34, 78);
+padding: 0%;
+margin-left: 10px;
+text-align: center;
+padding: 5px;
+
+}
+
+.ResultHolder td{
+background-color: rgb(227, 237, 248);
+border-radius: 10px;
+color: rgb(34, 34, 78);
+font-family:'Times New Roman', Times, serif;
+font-size: large;
+}
+.tdTitleHolder{
+    background-color: rgb(235, 235, 235);
+}
+.header{
+    width: 100%;
+}
+
+.buttonPrint{
+    background-color: rgb(34, 34, 78);
+    color: aliceblue;
+    margin-top: 40px;
+    align-self: center;
+    margin-left: 26%;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 140px;
+    border-radius: 9px;
+    border: none;
+    border: 2px solid rgb(34, 34, 78);
+}
+.buttonPrint:hover{
+    background-color: aliceblue;
+    color:     rgb(26, 71, 26);
+    border:  2px solid        rgb(26, 71, 26);
+}
+@media print {
+    .header ,
+    .Footer ,
+    .buttonPrint{
+
+      display: none;
+    }
+    .tdTitleHolder{
+        background-color: rgb(235, 235, 235);
+    }
+table{
+    width: 123%;
+    align-self: left;
+    margin: 0%;
+    text-align: left;
+    margin-top: -25px;
+}  
+.titleRequest-container{
+    margin-top: -38px;
+}
+
+}
+
+@media screen and (max-width: 868px) {
+    table{
+        width: 120%;
+        margin-left: 2%;
+    }
+
+    .header{
+        width: 100%;
+    }
+}

@@ -1,0 +1,125 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 34, 78);
+    user-select:none;
+    overflow-x: hidden;
+    -webkit-user-drag: none;
+    -webkit-user-modify: none;
+
+}
+
+.FooterContainer{
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(34, 34, 78);
+
+}
+.logoFooter{
+    width: 150px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.Logo-container{
+    display: flex;
+    flex-direction: column;
+}
+.developperpar{
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 95px;
+    color: aliceblue;
+}
+.LinkStylesEnabler{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.LinkStylesEnabler:hover{
+    color: rgba(0, 153, 153, 0.582);
+}
+.OtherPagesContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 40px;
+
+}
+.contactinginfocontainer{
+    margin-left: 90px;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+.contactinginfocontainer  p {
+    margin-top: 4px;
+    margin-bottom: 0px;    
+    }
+.LinkStylesEnabler2{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: medium;
+    margin-bottom: 8px;
+}
+.LinkStylesEnabler2:hover{
+    color: rgba(0, 153, 153, 0.582);
+}
+.LinkStylesEnabler3{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: medium;
+    margin-bottom: 8px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.LinkStylesEnabler3:hover{
+    color: rgba(0, 153, 153, 0.582);
+}
+
+.ENDPOINT{
+width: 70%;    
+}
+
+.LinkStylesEnabler4{
+    color: aliceblue;
+    text-decoration: none;
+}
+.Separateur{
+    margin-left: 10px;
+    color: aliceblue;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LinkStylesEnabler4:hover{
+
+color: rgba(0, 153, 153, 0.582);}
+
+.LASTLEVEL{
+
+}
+@media screen and (max-width: 760px){
+    .Footer{
+        align-items:center baseline;
+        width: 120% !important ;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .LASTLEVEL{
+        flex-wrap: wrap !important; 
+        display: flex !important;
+        flex-direction: column !important;
+        width: 122% !important;
+        background-color: rgb(34, 34, 78);
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+}

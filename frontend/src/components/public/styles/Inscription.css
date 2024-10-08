@@ -1,0 +1,715 @@
+.etoileimpo{
+  color: red;
+  font-family:'Times New Roman', Times, serif; 
+}
+.FormStyling{
+  display: flex;
+  flex-direction: column;
+}
+.inputingDetails2emedirThese{
+  display: flex;
+  flex-direction: column;
+}
+.PrenomHolderInput{
+  margin-left: 25%;
+}
+.NomHolderInput{
+  margin-left: 19%;
+}
+.NameAndPrenomInputHolder{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: aliceblue;
+  padding: 15px;
+  width: 80%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.NameAndPrenomInputHolder label input{
+  text-align: center;
+  margin-left: 10px;
+}
+.DateNaissanceAndLieuHolder{
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 80%;
+  padding: 15px;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+
+
+}
+.CINORPASSPORTANDTELHolder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-top: 20px;
+  
+    align-self: center;
+    width: 80%;
+    padding: 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row !important;
+
+}
+.DateNaissanceAndLieuHolder label input {
+  margin-left: 10px;
+  text-align: center;
+}
+.LieuNaissanceInputHolder{
+  margin-left: 21.4%;
+}
+.DateInputHolder label input{
+  margin-left: 10px;
+}
+.DateInputHolder{
+  margin-left: 13.5%;
+}
+.delete-option-button{
+  border: 1px solid red;
+  background-color: transparent;
+  margin-left: 45%;
+  height: 30px;
+  width: fit-content;
+  border-radius:10px;
+  color: red;  
+
+  align-content: center;
+}
+.delete-option-button-dirthese{
+  border: 1px solid red;
+  background-color: transparent;
+  margin-left: -5%;
+  margin-bottom: 40px;
+  height: 30px;
+  width: fit-content;
+  border-radius:10px;
+  color: red;  
+
+  align-content: center;
+}
+.delete-option-button:hover{
+  color: aliceblue;
+  background-color: red;
+}
+
+.CINPASSPORTINPUTHOLDER{
+  margin-left: 14%;
+
+
+  }
+.CINPASSPORTINPUTHOLDER input{
+  text-align: center;
+  margin-left: 10px;
+
+}
+.TelINPUTHOLDER{
+  margin-left: 23.4%;
+}
+.TelINPUTHOLDER input{
+  text-align: center;
+  margin-left: 10px;
+}
+.Informationpersonellesholder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-color: aliceblue;
+  width: 80%;
+  align-self: center;
+
+  
+}
+.AddressACTInputHolder input{
+  margin-left: 10px;
+  text-align: center;
+}
+.AddressACTInputHolder{
+  margin-left: 20.3%;
+}
+.AdressesHolder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  padding: 15px;
+
+  display: flex;
+  margin-top: 20px;
+  background-color: aliceblue;
+  flex-direction: row;
+  width: 80%;
+}
+.EmailInputHolder{
+  margin-left: 18.6%;
+}
+.EmailInputHolder input{
+
+  margin-left: 10px;
+  text-align: center;
+}
+.SelectorsHolderForInfoThese{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  display: flex;
+  padding: 15px;
+  
+  flex-direction: row;
+  width: 80%;
+  background-color: aliceblue;
+
+}
+.TheseInfoInputingHolder select{
+  margin-left: 10px;
+}
+.AnnéeInscriptionSelector{
+  margin-left: 11%;
+}
+.TypeTheseSelectingInput{
+  margin-left: 20%;
+
+}
+.StructureRechercheAndSujetTheseinputHolder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+background-color: aliceblue;
+  padding: 15px;
+} 
+.StructureInputHolder{
+  margin-left: 9%;
+}
+.StructureRechercheAndSujetTheseinputHolder input{
+  text-align: center;
+  margin-left: 10px;
+}
+.SujetTheseInputHolder{
+  margin-left: 17.5%;
+}
+.SpecialiteInputHolder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+display: flex;
+flex-direction: row;
+width: 80%;
+background-color: aliceblue;
+padding: 15px;
+margin-top: 20px;
+align-self: center;
+}
+.SpecialiteInputlabel input{
+  margin-left: 10px;
+
+
+}
+
+.SpecialiteInputlabel{
+margin-left: 33%;
+}
+
+.DirTheseNameAndGradeHolder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  width: 80%;
+  align-self: center;
+  background-color: aliceblue;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.DirTheseNameAndGradeHolder input , select{
+margin-left: 10px;
+width: fit-content;
+}
+.DirTheseInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.NameDirTheseHolderInput {
+  margin-left: 15%;
+
+}
+
+.GradeSelectorInputDirThese{
+  margin-left: 23.5%;
+}
+.LieuTravailAndEmailDirThese{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    width: 80%;
+    align-self: center;
+}
+.LieuTravailAndEmailDirThese input{
+  margin-left: 10px;
+}
+.LieuTravailDirThese{
+  margin-left: 15.5%;
+}
+.EmailDirTheseInputting{
+  margin-left: 23%;
+
+}
+.TelephoneDirTheseInput{
+  margin-top: 20px;
+  padding: 15px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+  }
+  .TelephoneDirTheseInput input{
+    margin-left: 10px;
+  }
+
+  .TelephoneDirTheseHolder{
+    margin-left: 36%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .add-new-CoEncadrant-button{
+    border-radius: 10px;
+    background-color: rgb(34, 34, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: aliceblue;
+
+  }
+  .AddingCOENCADRANT{
+    display: flex;
+    margin-top: 86px;
+    margin-left: 80%;
+  }
+  .add-new-CoEncadrant-button:hover{
+    color: rgb(26, 71, 26);
+    background-color: aliceblue;
+  }
+  .UserSelectorFile{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.add-new-DirThese-button{
+  border-radius: 10px;
+  background-color: rgb(34, 34, 78);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  color: aliceblue;
+}
+.add-new-DirThese-button:hover{
+  color: rgb(26, 71, 26);
+    background-color: aliceblue;
+}
+.Button-container{
+
+}
+.ADDNewDirThese{
+  display: flex;
+  flex-direction: column;
+}
+.ADDNewDirTheseContent{
+display: flex;
+flex-direction: row;
+align-self: center;
+}
+
+@media screen and (max-width: 868px){
+  .etoileimpo{
+    color: red;
+    font-family:'Times New Roman', Times, serif; 
+  }
+  .FormStyling{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputingDetails2emedirThese{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .NameAndPrenomInputHolder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    padding: 2px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .NameAndPrenomInputHolder label input{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .DateNaissanceAndLieuHolder{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    padding: 15px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+  
+  
+  }
+  .CINORPASSPORTANDTELHolder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    margin-top: 20px;
+    
+      align-self: center;
+      width: 80%;
+      padding: 15px;
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: row !important;
+  
+  }
+  .DateNaissanceAndLieuHolder label input {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .LieuNaissanceInputHolder{
+    margin-left: 21.4%;
+  }
+  .DateInputHolder label input{
+    margin-left: 10px;
+  }
+  .DateInputHolder{
+    margin-left: 13.5%;
+  }
+  .delete-option-button{
+    border: 1px solid red;
+    background-color: transparent;
+    margin-left: 45%;
+    height: 30px;
+    width: fit-content;
+    border-radius:10px;
+    color: red;  
+  
+    align-content: center;
+  }
+  .delete-option-button-dirthese{
+    border: 1px solid red;
+    background-color: transparent;
+    margin-left: -5%;
+    margin-bottom: 40px;
+    height: 30px;
+    width: fit-content;
+    border-radius:10px;
+    color: red;  
+  
+    align-content: center;
+  }
+  .delete-option-button:hover{
+    color: aliceblue;
+    background-color: red;
+  }
+  
+  .CINPASSPORTINPUTHOLDER{
+    margin-left: 14%;
+  
+  
+    }
+  .CINPASSPORTINPUTHOLDER input{
+    text-align: center;
+    margin-left: 10px;
+  
+  }
+  .TelINPUTHOLDER{
+    margin-left: 23.4%;
+  }
+  .TelINPUTHOLDER input{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .Informationpersonellesholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    background-color: aliceblue;
+    width: 80%;
+    align-self: center;
+  
+    
+  }
+  .AddressACTInputHolder input{
+    margin-left: 10px;
+    text-align: center;
+  }
+  .AddressACTInputHolder{
+    margin-left: 20.3%;
+  }
+  .AdressesHolder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    padding: 15px;
+  
+    display: flex;
+    margin-top: 20px;
+    background-color: aliceblue;
+    flex-direction: row;
+    width: 80%;
+  }
+  .EmailInputHolder{
+    margin-left: 18.6%;
+  }
+  .EmailInputHolder input{
+  
+    margin-left: 10px;
+    text-align: center;
+  }
+  .SelectorsHolderForInfoThese{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    display: flex;
+    padding: 15px;
+    
+    flex-direction: row;
+    width: 80%;
+    background-color: aliceblue;
+  
+  }
+  .TheseInfoInputingHolder select{
+    margin-left: 10px;
+  }
+  .AnnéeInscriptionSelector{
+    margin-left: 11%;
+  }
+  .TypeTheseSelectingInput{
+    margin-left: 20%;
+  
+  }
+  .StructureRechercheAndSujetTheseinputHolder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  background-color: aliceblue;
+    padding: 15px;
+  } 
+  .StructureInputHolder{
+    margin-left: 9%;
+  }
+  .StructureRechercheAndSujetTheseinputHolder input{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .SujetTheseInputHolder{
+    margin-left: 17.5%;
+  }
+  .SpecialiteInputHolder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  background-color: aliceblue;
+  padding: 15px;
+  margin-top: 20px;
+  align-self: center;
+  }
+  .SpecialiteInputlabel input{
+    margin-left: 10px;
+  
+  
+  }
+  
+  .SpecialiteInputlabel{
+  margin-left: 33%;
+  }
+  
+  .DirTheseNameAndGradeHolder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    width: 80%;
+    align-self: center;
+    background-color: aliceblue;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+  
+  
+  }
+  .DirTheseNameAndGradeHolder input , select{
+  margin-left: 10px;
+  width: fit-content;
+  }
+  .DirTheseInfo{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .NameDirTheseHolderInput {
+    margin-left: 15%;
+  
+  }
+  
+  .GradeSelectorInputDirThese{
+    margin-left: 23.5%;
+  }
+  .LieuTravailAndEmailDirThese{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+      display: flex;
+      flex-direction: row;
+      padding: 15px;
+      margin-top: 20px;
+      background-color: aliceblue;
+      width: 80%;
+      align-self: center;
+  }
+  .LieuTravailAndEmailDirThese input{
+    margin-left: 10px;
+  }
+  .LieuTravailDirThese{
+    margin-left: 15.5%;
+  }
+  .EmailDirTheseInputting{
+    margin-left: 23%;
+  
+  }
+  .TelephoneDirTheseInput{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-self: center;
+    }
+    .TelephoneDirTheseInput input{
+      margin-left: 10px;
+    }
+  
+    .TelephoneDirTheseHolder{
+      margin-left: 36%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    }
+    .add-new-CoEncadrant-button{
+      border-radius: 10px;
+      background-color: rgb(34, 34, 78);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+      color: aliceblue;
+  
+    }
+    .AddingCOENCADRANT{
+      display: flex;
+      margin-top: 86px;
+      margin-left: 80%;
+    }
+    .add-new-CoEncadrant-button:hover{
+      color: rgb(26, 71, 26);
+      background-color: aliceblue;
+    }
+    .UserSelectorFile{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  .add-new-DirThese-button{
+    border-radius: 10px;
+    background-color: rgb(34, 34, 78);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    color: aliceblue;
+  }
+  .add-new-DirThese-button:hover{
+    color: rgb(26, 71, 26);
+      background-color: aliceblue;
+  }
+  .Button-container{
+  
+  }
+  .ADDNewDirThese{
+    display: flex;
+    flex-direction: column;
+  }
+  .ADDNewDirTheseContent{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  }
+  
+}
+.button-submit{
+  align-self: center;
+  background-color: rgb(34, 34, 78);
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px;
+  width: 150px;
+  font-size: large;
+
+  border-radius: 14px;
+  border: 1px solid rgb(34, 34, 78);
+}
+.button-submit:hover{
+        color: rgb(26, 71, 26);
+        background-color: aliceblue;
+        border: 1px solid rgb(26, 71, 26);
+}
+
+
+.ICONVALIDATE{
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 868px) {
+  .NameAndPrenomInputHolder,
+  .DateNaissanceAndLieuHolder,
+  .CINORPASSPORTANDTELHolder,
+  .Informationpersonellesholder,
+  .AdressesHolder,
+  .SelectorsHolderForInfoThese,
+  .StructureRechercheAndSujetTheseinputHolder,
+  .SpecialiteInputHolder,
+  .DirTheseNameAndGradeHolder,
+  .LieuTravailAndEmailDirThese,
+  .TelephoneDirTheseInput,.DateNaissanceAndLieuHolder,.DateInputHolder {
+    flex-direction: column;
+ flex-wrap: wrap;
+ width: 90%;
+  }
+
+
+  .NameAndPrenomInputHolder label input,.DateInputHolder,
+  .DateNaissanceAndLieuHolder label input,
+  .LieuNaissanceInputHolder,.DateNaissanceAndLieuHolder,
+  .DateInputHolder label input,.CINPASSPORTINPUTHOLDER,
+  .CINPASSPORTINPUTHOLDER input,
+  .TelINPUTHOLDER input, .LieuNaissanceInputHolder,
+  .AddressACTInputHolder input,
+  .EmailInputHolder input,.TelINPUTHOLDER,
+  .TheseInfoInputingHolder select,
+  .AnnéeInscriptionSelector,
+  .TypeTheseSelectingInput,
+  .StructureInputHolder input,
+  .SujetTheseInputHolder input,
+  .SpecialiteInputlabel input,
+  .NameDirTheseHolderInput,
+  .GradeSelectorInputDirThese,
+  .LieuTravailAndEmailDirThese input,
+  .EmailDirTheseInputting,.SpecialiteInputlabel,.AddressACTInputHolder,
+
+  .TelephoneDirTheseInput,.TelephoneDirTheseInput input
+  ,.AnnéeInscriptionSelector,.TypeTheseSelectingInput,.StructureInputHolder,.SujetTheseInputHolder,.SpecialiteInputlabel,
+  .NameDirTheseHolderInput,.GradeSelectorInputDirThese,.LieuTravailDirThese,.EmailDirTheseInputting
+  ,.TelephoneDirTheseHolder,.StructureInputHolder {
+
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+}
