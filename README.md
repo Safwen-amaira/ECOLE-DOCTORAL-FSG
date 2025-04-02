@@ -58,8 +58,7 @@ Situé dans le dossier `/backend`, développé avec **Django**, assurant la gest
 
 ### 1. Clonez le dépôt :
 ```bash
-git clone https://github.com/username/project-name.git
-```
+https://github.com/Safwen-amaira/ECOLE-DOCTORAL-FSG.```
 ### 2. frontend : 
 
 ```bash
